@@ -102,7 +102,7 @@ optimizer = AdamW(model.parameters(), lr=2e-5)
 # -------------------------------
 # 7. Training loop
 # -------------------------------
-epochs = 1
+epochs = 2
 model.train()
 for epoch in range(epochs):
     loop = tqdm(train_loader, desc=f"Training Epoch {epoch+1}")
